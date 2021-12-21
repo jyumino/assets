@@ -1,4 +1,4 @@
-@font-face{font-family:Roboto;src:url('../fonts/Roboto/Roboto-Medium.ttf');font-display: swap;}
+@font-face{font-family:Roboto;src:url('https://cdn.jsdelivr.net/gh/jyumino/assets@main/mercusuar/fonts/Roboto/Roboto-Medium.ttf');font-display: swap;}
 .container{
     max-width: 940px;
 }
