@@ -1,0 +1,98 @@
+.popup-menu{
+	background-color:#333;
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+	z-index:0;
+	opacity:0;
+	transition:all ease 0.3s;
+}
+.popup-menu-header{
+	height:55px;
+	position:relative;
+	background: linear-gradient(90deg,#422e8d 0,#be2f62 35%,#b72276 54%,#f04e39 71%,#f12849 100%);						
+}
+.popup-menu-header span{
+	position:absolute;
+	left:17px;
+	top:10px;
+	font-size:34px;
+	color:#FFF;
+}
+.popup-menu-header h3 {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 18px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: sans-serif;
+	color: #333;
+}
+.popup-menu-body{
+	
+}
+.popup-menu-body ul{
+	padding:0px;
+	margin:0px;						
+}
+.popup-menu-body ul li{
+	padding:5px;
+	padding-left:15px;
+	margin:10px 15px;
+	color:#FFF;
+	border-bottom:solid 1px #555;
+	list-style:none;
+}
+.popup-menu-body ul li a{
+	color:#FFF;
+	font-size:14px;
+	font-family:sans-serif;
+	text-decoration:none;
+	margin-bottom:5px;
+}
+.menu-header a{
+	font-weight:bold;
+	margin-left:-12px;
+	font-size:16px;
+}
+.parallax-container{
+	top: 0;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	background: #212121;
+	height: 520px;
+	overflow: hidden;
+}
+.parallax{
+	width: 300px;
+	height: 520px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.parallax-inner{
+	position: fixed;
+	top: 50px;		
+}
+.text-scroll{
+	background-color:#333;
+	color:#FFF;
+	text-transform:uppercase;
+	text-align:center;
+	padding:2px;
+	font-size:10px;
+}
+/*.text-scroll b{
+	opacity:0;
+}*/
+.box-ads-billboard-mobile{
+	margin-top:0px !important;
+}
+.main-root{
+	z-index:2;
+	background-color:#FFF;
+	position:relative;
+}
